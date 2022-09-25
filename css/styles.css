@@ -416,11 +416,12 @@ nav li {
   text-decoration: none;
   color: black;
   border-radius: 10px;
-  font-size: 20px;
-  width: 80px;
+  font-size: 25px;
+  width: 100px;
   margin-top: 20px;
   cursor: pointer;
   border: none;
+  margin-left: -532px;
 }
 
 /* Media */
@@ -519,6 +520,10 @@ nav li {
   .label-message {
     margin-left: -235px;
     margin-top: 20px;
+  }
+
+  .contactform button {
+    margin-left: -200px;
   }
 }
 

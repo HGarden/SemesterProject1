@@ -222,7 +222,8 @@ nav li {
 .card p {
   margin-top: 10px;
   font-size: 16px;
-  width: 400px;
+  width: 410px;
+  height: 155px;
 }
 
 /* Explore */
@@ -253,10 +254,11 @@ nav li {
 
 .card2 i {
   font-size: 40px;
+  padding: 20px;
 }
 
 .card2 p {
-  width: 426px;
+  width: 400px;
 }
 
 /* Exhibition */
@@ -308,8 +310,22 @@ nav li {
 
 .grid2 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   justify-items: center;
+  row-gap: 20px;
+}
+
+.events .card p {
+  height: 140px;
+  margin-top: 5px;
+}
+
+.events .card h2 {
+  margin-top: 5px;
+}
+
+.events .card img {
+  height: 510px;
 }
 
 /* Visit */
@@ -345,6 +361,11 @@ nav li {
 .visit-grid {
   margin-left: 10px;
 }
+
+.visit-grid p {
+  max-width: 350px;
+}
+
 /* Get involved */
 
 .contactform {
@@ -429,6 +450,10 @@ nav li {
     row-gap: 15px;
     width: 90vw;
     margin-left: 50px;
+  }
+
+  .visit-grid p {
+    max-width: 600px;
   }
 }
 

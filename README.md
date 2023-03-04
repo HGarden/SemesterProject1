@@ -1,6 +1,7 @@
 # Semester Project 1 
 
-https://github.com/HGarden/SemesterProject1/blob/f08ea6540a086645ccce805b01cd8b204ea1973a/images/csm.png
+[https://github.com/HGarden/SemesterProject1/blob/f08ea6540a086645ccce805b01cd8b204ea1973a/images/csm.png](https://github.com/HGarden/SemesterProject1/blob/f08ea6540a086645ccce805b01cd8b204ea1973a/images/csm.png
+)
 
 ## Description
 
